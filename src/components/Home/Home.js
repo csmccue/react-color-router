@@ -1,10 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 export default function Home() {
+  const id = useParams();
   return (
-    <>
-      <div><Link to={'/List'}> Click here! </Link></div>
-    </>
+    <main style={{ backgroundColor: `rgb(${id.red}, ${id.green}, ${id.blue})` }} >
+      <div>
+        rgb({id.red}, {id.green}, {id.blue})
+      </div>
+    </main>
   );
 }

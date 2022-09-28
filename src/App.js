@@ -5,8 +5,9 @@ import './App.css';
 function App() {
   return (
     <>
+      <h1>Colors!</h1>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route exact path="/rgb" component={Home} />
       </Switch>
     </>
   );
