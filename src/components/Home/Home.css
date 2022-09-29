@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    font-size: 5rem;
+}
+
