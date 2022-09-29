@@ -8,6 +8,8 @@ export default function Home() {
       <div>
         rgb({id.red}, {id.green}, {id.blue})
       </div>
+      <div className={`logo${id.red}`}>
+      </div>
     </main>
   );
 }

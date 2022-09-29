@@ -2,9 +2,45 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 main div {
-    font-size: 5rem;
+    font-size: 3em;
+}
+
+.logo0 {
+  background-image: url(https://1000logos.net/wp-content/uploads/2020/09/Chili%E2%80%99s-Logo-2002.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px;
+  width: 600px;
+  height: 600px;
+}
+
+.logo237 {
+  background-image: url(https://1000logos.net/wp-content/uploads/2020/09/Chili%E2%80%99s-Logo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px;
+  width: 600px;
+  height: 600px;
+
+}
+
+.logo238 {
+  background-image: url(https://seeklogo.com/images/C/chilis-logo-76E6E965DD-seeklogo.com.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px;
+  width: 600px;
+  height: 600px;
 }
 
