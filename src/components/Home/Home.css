@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main div {
+    font-size: 3em;
+}
+
+.logo0 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BZmI3ZDQ4YTItN2I2YS00NzdkLWFlMjItMjQzYzViZGM4MmNiXkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 700px;
+  width: 700px;
+  height: 700px;
+}
+
+.logo237 {
+  background-image: url(https://i.scdn.co/image/ab67706c0000bebbc877311f5411ed781890c451);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px;
+  width: 800px;
+  height: 900px;
+
+}
+
+.logo238 {
+  background-image: url(https://ih1.redbubble.net/image.537082894.4207/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 600px;
+  width: 600px;
+  height: 1000px;
+}
+

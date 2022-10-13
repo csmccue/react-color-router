@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 185, 151);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.green {
+  color: white;
+  font-size: 3rem;
+}
+
+.red {
+  color: white;
+  font-size: 3rem;
+}
+
+.white {
+  color: white;
+  font-size: 3rem;
+}
