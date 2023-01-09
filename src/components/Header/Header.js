@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
@@ -11,6 +11,7 @@ export default function Header() {
           <NavLink className='white' activeStyle={{ color: `rgb(238,238,238)` }} to="/rgb/238/238/238">Chilis White</NavLink>
         </ul>
       </header>
+      <Outlet />
     </>
   );
 }
